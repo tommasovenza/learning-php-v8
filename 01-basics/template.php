@@ -4,14 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basics Index</title>
+    <title>Template PHP</title>
 </head>
 
 <body>
-    <ul>
-        <li><a href="echo.php">Echo PHP</a></li>
-        <li><a href="template.php">Template PHP</a></li>
-    </ul>
+    <h1>Template PHP</h1>
 </body>
 
 </html>
