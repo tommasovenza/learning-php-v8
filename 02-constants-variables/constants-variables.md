@@ -41,15 +41,15 @@ Una variabile statica => queste a scope statico hanno la stessa visibilità dell
 
 ## VARIABILI GLOBALI PREDEFINITE
 
-$GLOBALS => un array contenente tutte le variabile definire a scope globale
-$\_SERVER => contiene un sacco di informazioni sulla macchina in cui è eseguito l’interprete PHP
-$_GET => contiene prevalentemente dati inviati tramite form, moduli o pagine di reindirizzamento
-$\_POST => contiene dati inviati tramite form, moduli o pagine di reindirizzamento
-$_REQUEST => contiene dati inviati tramite form, moduli o pagine di reindirizzamento
-$\_FILES => contiene dati inviati tramite form, moduli o pagine di reindirizzamento
-$_COOKIE => è una variabile dove vengono caricati tutti i dati salvati nei cookie del browser
-$\_SESSION => è un array contenente tutti i dati della sessione attuale dell’utente sul server.
-$\_ENV => contiene le variabili di ambiente del nostro host.
+$GLOBALS => un array contenente tutte le variabile definire a scope globale<br>
+$\_SERVER => contiene un sacco di informazioni sulla macchina in cui è eseguito l’interprete PHP<br>
+$_GET => contiene prevalentemente dati inviati tramite form, moduli o pagine di reindirizzamento<br>
+$\_POST => contiene dati inviati tramite form, moduli o pagine di reindirizzamento<br>
+$_REQUEST => contiene dati inviati tramite form, moduli o pagine di reindirizzamento<br>
+$\_FILES => contiene dati inviati tramite form, moduli o pagine di reindirizzamento<br>
+$_COOKIE => è una variabile dove vengono caricati tutti i dati salvati nei cookie del browser<br>
+$\_SESSION => è un array contenente tutti i dati della sessione attuale dell’utente sul server<br>
+$\_ENV => contiene le variabili di ambiente del nostro host<br>
 
 Le costanti possono essere definite anche tramite la funzione define
 
