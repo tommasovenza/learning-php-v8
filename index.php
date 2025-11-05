@@ -10,6 +10,7 @@
 <body>
   <ul>
     <li><a href="01-basics/">Basics</a></li>
+    <li><a href="02-constants-variables/">Constants & Variables</a></li>
   </ul>
 </body>
 
