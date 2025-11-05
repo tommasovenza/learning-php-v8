@@ -11,6 +11,7 @@
   <ul>
     <li><a href="01-basics/">Basics</a></li>
     <li><a href="02-constants-variables/">Constants & Variables</a></li>
+    <li><a href="03-types-of-data/">Types of Data</a></li>
   </ul>
 </body>
 
