@@ -20,3 +20,9 @@ Avremo quindi due blocchi di codice e per una condizione e per l’altra.
 
 PHP inoltre è in grado di fare il casting di alcuni valori qualora non sia booleano. Questa conversione è un casting.
 Si comporta in questo modo:
+
+integer: 0, -0 = false
+float: 0.0, -0.0 = false
+string: "", " ", "0", "0" = false
+array: [] = false
+null: null = false
