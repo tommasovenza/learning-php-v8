@@ -13,6 +13,7 @@
     <li><a href="02-constants-variables/">Constants & Variables</a></li>
     <li><a href="03-types-of-data/">Types of Data</a></li>
     <li><a href="04-boolean/">Boolean</a></li>
+    <li><a href="05-integers/">Integers</a></li>
   </ul>
 </body>
 
