@@ -10,6 +10,7 @@
 <body>
     <ul>
         <li><a href="boolean.php">Boolean</a></li>
+        <li><a href="boolean.md">Boolean MD</a></li>
     </ul>
 </body>
 
