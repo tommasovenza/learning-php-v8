@@ -1,4 +1,4 @@
-# 06 - Numeri Interi
+# I Numeri Interi
 
 Tra le varie tipologia di dati esistono gli interi. Non sono decimali e possono essere positivi e negativi.
 Questi possono essere rappresentati i numeri interi non solo come decimali, ma anche in notazione esadecimale, ottava o binaria.

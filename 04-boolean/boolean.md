@@ -1,4 +1,4 @@
-# 05 - Valori Booleani
+# I Valori Booleani
 
 Un valore booleano rappresenta una verità.
 E’ può essere valorizzato come vero o come falso

@@ -14,6 +14,7 @@
     <li><a href="03-types-of-data/">Types of Data</a></li>
     <li><a href="04-boolean/">Boolean</a></li>
     <li><a href="05-integers/">Integers</a></li>
+    <li><a href="06-strings/">Strings</a></li>
   </ul>
 </body>
 
