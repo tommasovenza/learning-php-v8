@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Types Of Data Index</title>
+    <title>Boolean Index</title>
 </head>
 
 <body>
     <ul>
-        <li><a href="types-of-data.php">Types of data</a></li>
-        <li><a href="types-of-data.md">Types of data MD</a></li>
+        <li><a href="boolean.php">Boolean</a></li>
     </ul>
 </body>
 

@@ -6,10 +6,10 @@ define('USERNAME', 'Tommaso');
 // printing
 echo "USERNAME" . "\n";
 
-$new_name = "Pippo";
+$newName = "Pippo";
 
 // concatenation
-echo "ciao " . USERNAME . "\n" . $new_name;
+echo "ciao " . USERNAME . "\n" . $newName;
 
 ?>
 
