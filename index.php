@@ -16,6 +16,7 @@
     <li><a href="05-integers/">Integers</a></li>
     <li><a href="06-strings/">Strings</a></li>
     <li><a href="07-array/">Array</a></li>
+    <li><a href="08-conditionals/">Conditionals</a></li>
   </ul>
 </body>
 
