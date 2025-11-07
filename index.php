@@ -19,6 +19,7 @@
     <li><a href="08-conditionals/">Conditionals</a></li>
     <li><a href="09-cycles/">Cycles</a></li>
     <li><a href="10-switch/">Switch</a></li>
+    <li><a href="11-match/">Match</a></li>
   </ul>
 </body>
 
