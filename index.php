@@ -18,6 +18,7 @@
     <li><a href="07-array/">Array</a></li>
     <li><a href="08-conditionals/">Conditionals</a></li>
     <li><a href="09-cycles/">Cycles</a></li>
+    <li><a href="10-switch/">Switch</a></li>
   </ul>
 </body>
 
