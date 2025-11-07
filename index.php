@@ -17,6 +17,7 @@
     <li><a href="06-strings/">Strings</a></li>
     <li><a href="07-array/">Array</a></li>
     <li><a href="08-conditionals/">Conditionals</a></li>
+    <li><a href="09-cycles/">Cycles</a></li>
   </ul>
 </body>
 

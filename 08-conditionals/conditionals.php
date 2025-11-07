@@ -19,7 +19,7 @@ if ($vote === 6) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>>Conditionals Template Example</title>
+    <title>Conditionals Template Example</title>
 </head>
 
 <body>
