@@ -21,6 +21,7 @@
     <li><a href="10-switch/">Switch</a></li>
     <li><a href="11-match/">Match</a></li>
     <li><a href="12-return-declare-goto/">Return, Declare, Goto</a></li>
+    <li><a href="13-include-other-script/">Include Other Script</a></li>
   </ul>
 </body>
 
