@@ -23,6 +23,7 @@
     <li><a href="12-return-declare-goto/">Return, Declare, Goto</a></li>
     <li><a href="13-include-other-script/">Include Other Script</a></li>
     <li><a href="14-functions/">Functions</a></li>
+    <li><a href="15-params-arguments/">Params & Arguments</a></li>
   </ul>
 </body>
 
