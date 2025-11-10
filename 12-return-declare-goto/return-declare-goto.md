@@ -20,3 +20,30 @@ In questo caso non tornerà un valore ma null (ovvero assenza di valore.)
 In tutti gli altri casi tornerà, come detto prima, quel valore.
 
 ## DECLARE
+
+Il declare si può usare quindi con la selezione.
+In PHP quasi ogni istruzione genera un TICK, una sorta di evento dell’interprete quando esegue un comando od un gruppo di comandi.
+
+Potremmo registrare dei TICK e poi vedere quando scattano, ovvero ad ogni dichiarazione di funzione, oppure ad ogni ciclo eseguito in un for e così via.
+
+La registrazione si effettua facendo il register_tick_function(‘onTick’) e passando dentro alla register la funzione precedentemente dichiarata.
+
+É difficile che questa roba venga mai usata, se non in casi estremamente specifici come misurare le prestazione o fare roba molto molto avanzata.
+
+Dichiarazione di encoding. (Probabilmente anche questa non la useremo mai)
+Sarebbe possibile specificare con quale codifica interpretare i nostri script. Ma in genere, questa cosa viene fatta lato server, nel file PHP.ini, impostando qui questi valori => non è mai necessario modificarli
+
+// controllo stringente sui tipi di dato
+Questo controllo è sul singolo file, quindi il comando va messo all’inizio di ogni file.
+
+declare(strict_types=1);
+
+Si forza qui l’interprete PHP a verificare che i tipi di dato corrispondano a quanto dichiarato.
+
+Se scrivessimo ora una funzione che fa la somma di due numeri e passassimo come argomento un numero dentro ad una stringa ci verrebbe ora segnalato un errore fatale e lo script e tutto il programma si interromperebbe.
+
+declare(strict_types=1); è molto molto utile e ci può aiutare tantissimo a non produrre bug. L’unico inconveniente è che se decidiamo di usarlo, va messo all’inizio di OGNI file per tutti i file che produciamo. Perchè se ad esempio importiamo altri file, nel nostro file, se non usiamo questa dichiarazione sempre succede casino.
+
+## GOTO
+
+Tutto quello che c’è da sapere qui è che => Non bisogna mai usare goto. 😳
