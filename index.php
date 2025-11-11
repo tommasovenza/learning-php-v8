@@ -25,6 +25,7 @@
     <li><a href="14-functions/">Functions</a></li>
     <li><a href="15-params-arguments/">Params & Arguments</a></li>
     <li><a href="16-scope/">Scope</a></li>
+    <li><a href="17-types-of-functions/">Types of Functions</a></li>
   </ul>
 </body>
 
