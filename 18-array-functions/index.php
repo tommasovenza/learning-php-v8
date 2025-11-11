@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Types of Functions</title>
+    <title>Array Functions Index</title>
 </head>
 
 <body>
     <ul>
-        <li><a href="type-of-function.php">Type of Function</a></li>
-        <li><a href="type-of-function.md">Type of Function MD</a></li>
+        <li><a href="array-functions.php">Array Functions</a></li>
+        <li><a href="array-functions.md">Array Functions MD</a></li>
     </ul>
 </body>
 
