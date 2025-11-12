@@ -27,6 +27,7 @@
     <li><a href="16-scope/">Scope</a></li>
     <li><a href="17-types-of-functions/">Types of Functions</a></li>
     <li><a href="18-array-functions/">Array Functions</a></li>
+    <li><a href="19-managing-files/">Managing Files</a></li>
   </ul>
 </body>
 
