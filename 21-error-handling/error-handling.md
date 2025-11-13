@@ -28,3 +28,10 @@ Gli errori che siano mostrati o meno possono essere comunque loggati.
 La posizione del file di Log varia da sistema a sistema, e dipende dalla nostra configurazione.
 
 error_log( ) è una funzione che ci consente di aggiungere manualmente una riga ai Log degli errori.
+
+## FUNZIONE DI HANDLING DEGLI ERRORI
+
+Si può creare anche una funzione di handling degli errori. => non capita spesso di doverlo fare, ma si può.
+Per farlo si va a definire una funzione custom che prende come parametri: il codice dell’errore, la descrizione, il file e la linea e utilizzare la funzione set_error_handler( ), passandogli come parametro il nome della nostra funzione.
+
+Poi facciamo un var_dump, spostiamo il trigger_error in fondo allo script ed avremo il var_dump del nostro errore.
