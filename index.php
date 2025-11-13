@@ -29,6 +29,7 @@
     <li><a href="18-array-functions/">Array Functions</a></li>
     <li><a href="19-managing-files/">Managing Files</a></li>
     <li><a href="20-date-time/">Date and Time</a></li>
+    <li><a href="21-error-handling/">Error Handling</a></li>
   </ul>
 </body>
 
