@@ -31,6 +31,7 @@
     <li><a href="20-date-time/">Date and Time</a></li>
     <li><a href="21-error-handling/">Error Handling</a></li>
     <li><a href="22-php-interpreter/">PHP Interpreter</a></li>
+    <li><a href="23-web-server-apache/">Web Server Apache</a></li>
   </ul>
 </body>
 
