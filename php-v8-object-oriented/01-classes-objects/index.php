@@ -9,8 +9,7 @@
 
 <body>
     <ul>
-        <li><a href="php-v8-object-oriented/01-classes-objects">Classes & Objects</a></li>
-        <li><a href="php-v8-object-oriented/01-classes-objects">Classes & Objects MD</a></li>
+        <li><a href="php-v8-object-oriented/01-classes-objects/01-classes-objects.md">Classes & Objects MD</a></li>
     </ul>
 </body>
 
