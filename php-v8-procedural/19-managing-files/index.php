@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="managing-files.php">Managing Files</a></li>
-        <li><a href="managing-files.md">Managing Files MD</a></li>
+        <li><a href="/php-v8-procedural/19-managing-files/managing-files.php">Managing Files</a></li>
+        <li><a href="/php-v8-procedural/19-managing-files/managing-files.md">Managing Files MD</a></li>
     </ul>
 </body>
 

@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="error-handling.php">Error Handling</a></li>
-        <li><a href="error-handling.md">Error Handling MD</a></li>
+        <li><a href="/php-v8-procedural/21-error-handling/error-handling.php">Error Handling</a></li>
+        <li><a href="/php-v8-procedural/21-error-handling/error-handling.md">Error Handling MD</a></li>
     </ul>
 </body>
 

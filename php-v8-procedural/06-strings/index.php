@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="strings.php">Strings</a></li>
-        <li><a href="strings.md">Strings MD</a></li>
+        <li><a href="/php-v8-procedural/06-strings/strings.php">Strings</a></li>
+        <li><a href="/php-v8-procedural/06-strings/strings.md">Strings MD</a></li>
     </ul>
 </body>
 

@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="integers.php">Integers</a></li>
-        <li><a href="integers.md">Integers MD</a></li>
+        <li><a href="/php-v8-procedural/05-integers/integers.php">Integers</a></li>
+        <li><a href="/php-v8-procedural/05-integers/integers.md">Integers MD</a></li>
     </ul>
 </body>
 

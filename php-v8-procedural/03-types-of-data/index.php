@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="types-of-data.php">Types of data</a></li>
-        <li><a href="types-of-data.md">Types of data MD</a></li>
+        <li><a href="/php-v8-procedural/03-types-of-data/types-of-data.php">Types of data</a></li>
+        <li><a href="/php-v8-procedural/03-types-of-data/types-of-data.md">Types of data MD</a></li>
     </ul>
 </body>
 

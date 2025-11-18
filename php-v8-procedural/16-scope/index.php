@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="scope.php">Scope</a></li>
-        <li><a href="scope.md">Scope MD</a></li>
+        <li><a href="/php-v8-procedural/16-scope/scope.php">Scope</a></li>
+        <li><a href="/php-v8-procedural/16-scope/scope.md">Scope MD</a></li>
     </ul>
 </body>
 

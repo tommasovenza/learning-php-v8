@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="boolean.php">Boolean</a></li>
-        <li><a href="boolean.md">Boolean MD</a></li>
+        <li><a href="/php-v8-procedural/04-boolean/boolean.php">Boolean</a></li>
+        <li><a href="/php-v8-procedural/04-boolean/boolean.md">Boolean MD</a></li>
     </ul>
 </body>
 

@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="params-arguments.php">Params & Arguments</a></li>
-        <li><a href="params-arguments.md">Params & Arguments MD</a></li>
+        <li><a href="/php-v8-procedural/15-params-arguments/params-arguments.php">Params & Arguments</a></li>
+        <li><a href="/php-v8-procedural/15-params-arguments/params-arguments.md">Params & Arguments MD</a></li>
     </ul>
 </body>
 

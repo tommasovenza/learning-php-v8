@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="conditionals.php">Conditionals</a></li>
-        <li><a href="conditionals.md">Conditionals MD</a></li>
+        <li><a href="/php-v8-procedural/08-conditionals/conditionals.php">Conditionals</a></li>
+        <li><a href="/php-v8-procedural/08-conditionals/conditionals.md">Conditionals MD</a></li>
     </ul>
 </body>
 

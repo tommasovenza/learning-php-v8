@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="return-declare-goto.php">Return, Declare, Goto</a></li>
-        <li><a href="return-declare-goto.md">Return, Declare, Goto MD</a></li>
+        <li><a href="/php-v8-procedural/12-return-declare-goto/return-declare-goto.php">Return, Declare, Goto</a></li>
+        <li><a href="/php-v8-procedural/12-return-declare-goto/return-declare-goto.md">Return, Declare, Goto MD</a></li>
     </ul>
 </body>
 

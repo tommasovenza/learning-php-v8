@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="constants-variables.php">Constants & Variables</a></li>
-        <li><a href="constants-variables.md">Constants & Variables MD</a></li>
+        <li><a href="/php-v8-procedural/02-constants-variables/constants-variables.php">Constants & Variables</a></li>
+        <li><a href="/php-v8-procedural/02-constants-variables/constants-variables.md">Constants & Variables MD</a></li>
     </ul>
 </body>
 

@@ -8,10 +8,13 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
+
     <ul>
-        <li><a href="echo.php">Echo PHP</a></li>
-        <li><a href="template.php">Template PHP</a></li>
-        <li><a href="PHP.md">PHP MD</a></li>
+        <li><a href="/php-v8-procedural/01-basics/echo.php">Echo PHP</a></li>
+        <li><a href="/php-v8-procedural/01-basics/template.php">Template PHP</a></li>
+        <li><a href="/php-v8-procedural/01-basics/PHP.md">PHP MD</a></li>
     </ul>
 </body>
 

@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="include-other-script.php">Include other script</a></li>
-        <li><a href="include-other-script.md">Include other script MD</a></li>
+        <li><a href="/php-v8-procedural/13-include-other-script/include-other-script.php">Include other script</a></li>
+        <li><a href="/php-v8-procedural/13-include-other-script/include-other-script.md">Include other script MD</a></li>
     </ul>
 </body>
 

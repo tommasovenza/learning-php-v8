@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="switch.php">Switch</a></li>
-        <li><a href="switch.md">Switch MD</a></li>
+        <li><a href="/php-v8-procedural/10-switch/switch.php">Switch</a></li>
+        <li><a href="/php-v8-procedural/10-switch/switch.md">Switch MD</a></li>
     </ul>
 </body>
 

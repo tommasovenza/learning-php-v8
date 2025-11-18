@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="array.php">Array</a></li>
-        <li><a href="array.md">Array MD</a></li>
+        <li><a href="/php-v8-procedural/07-array/array.php">Array</a></li>
+        <li><a href="/php-v8-procedural/07-array/array.md">Array MD</a></li>
     </ul>
 </body>
 

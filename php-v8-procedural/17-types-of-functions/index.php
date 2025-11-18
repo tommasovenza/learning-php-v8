@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!-- Link Back Home -->
+    <a href="../../">Home</a>
     <ul>
-        <li><a href="type-of-function.php">Type of Function</a></li>
-        <li><a href="type-of-function.md">Type of Function MD</a></li>
+        <li><a href="/php-v8-procedural/17-types-of-functions/type-of-function.php">Type of Function</a></li>
+        <li><a href="/php-v8-procedural/17-types-of-functions/type-of-function.md">Type of Function MD</a></li>
     </ul>
 </body>
 
