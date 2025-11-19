@@ -41,7 +41,8 @@
   <!-- Second Part -->
   <h2>Second part: PHP 8 - Object Oriented</h2>
   <ul>
-    <li><a href="/php-v8-object-oriented/01-classes-objects">01-classes-objects</a></li>
+    <li><a href="/php-v8-object-oriented/01-classes-objects">Classes & Objects</a></li>
+    <li><a href="/php-v8-object-oriented/02-constructor-promotion">Constructor Promotion</a></li>
   </ul>
 
 </body>
