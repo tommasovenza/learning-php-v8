@@ -20,3 +20,16 @@ $myFirstVideo->incrementViews();
 // dumping
 var_dump($myFirstVideo);
 var_dump($weaponsMovie);
+
+// Here another way to create a Video Object through a variable
+$className = "Video";
+
+// we need to use always new keyword and pass a title
+$pulpMovie = new $className('Pulp Fiction');
+
+// setting description and incrementing views 2 times
+$pulpMovie->description = 'A Quentin Tarantino Movie';
+$pulpMovie->incrementViews();
+$pulpMovie->incrementViews();
+
+var_dump($pulpMovie);
