@@ -6,12 +6,22 @@ class Video
     // variables attributes and properties
     public string $title;
 
-    public string $description;
+    public string $description = '';
 
-    public int $views;
+    public int $views = 0;
 
-    public function __construct()
+    public function __construct($title)
     {
-        echo "costruct a new video..!";
+        $this->title = $title;
+    }
+
+    public function setVideoDescription(string $description)
+    {
+        $this->description = $description;
+    }
+
+    public function incrementViews()
+    {
+        $this->views++;
     }
 }
