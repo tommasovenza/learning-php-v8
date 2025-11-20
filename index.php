@@ -44,6 +44,7 @@
     <li><a href="/php-v8-object-oriented/01-classes-objects">Classes & Objects</a></li>
     <li><a href="/php-v8-object-oriented/02-constructor-promotion">Constructor Promotion</a></li>
     <li><a href="/php-v8-object-oriented/03-null-safe-operator">NULL Safe Operator</a></li>
+    <li><a href="/php-v8-object-oriented/04-namespaces">Namespaces</a></li>
   </ul>
 
 </body>
