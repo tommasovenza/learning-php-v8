@@ -9,8 +9,8 @@
 
 <body>
     <ul>
-        <li><a href="/php-v8-object-oriented/04-namespaces/namespace.php">Namespace</a></li>
-        <li><a href="/php-v8-object-oriented/04-namespaces/namespace.md">Namespace MD</a></li>
+        <li><a href="/php-v8-object-oriented/04-namespaces/namespaces.php">Namespace</a></li>
+        <li><a href="/php-v8-object-oriented/04-namespaces/namespaces.md">Namespace MD</a></li>
     </ul>
 </body>
 

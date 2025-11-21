@@ -1,20 +1,18 @@
 <?php
 
-// include '../src/Video.php';
-// include '../src/YouTube/Gateway.php';
-// include '../src/PeerTube/Gateway.php';
+// import files
+require_once("YouTube/Gateway.php");
+require_once("PeerTube/Gateway.php");
 
-// // namespace
+// using use to import class and distinct them with alias
+use Venza\YouTube\Gateway as YouTube;
+use  Venza\PeerTube\Gateway as PeerTube;
 
-// use App\YouTube\Gateway as YouTubeGateway;
-// use App\PeerTube\Gateway as PeerTubeGateway;
+$youtubeGateway = new Youtube();
+$peerTubeGateway = new PeerTube();
 
-// $video_php = new Video('Video Corso PHP');
+$uploadYoutube = $youtubeGateway->uploadYoutube();
+$uploadPeerTube = $peerTubeGateway->uploadPeertube();
 
-// $youtubeGateway = new YouTubeGateway();
-// $youtubeGateway->createVideo($video_php);
-// var_dump($youtubeGateway);
-
-// $peertubeGateway = new PeerTubeGateway();
-// $peertubeGateway->createVideo($video_php);
-// var_dump($peertubeGateway);
+var_dump($uploadYoutube);
+var_dump($uploadPeerTube);
