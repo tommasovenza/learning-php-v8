@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <!-- Back Link -->
-    <a href="../">Home</a>
+    <!-- Link Back home -->
+    <a href="../../index.php">Home</a>
 
     <ul>
         <li>

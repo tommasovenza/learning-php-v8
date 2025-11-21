@@ -9,6 +9,8 @@
 
 <body>
     <h1>Constructor Promotion</h1>
+    <!-- Link Back home -->
+    <a href="../../index.php">Home</a>
 
     <ul>
         <li><a href="/php-v8-object-oriented/02-constructor-promotion/constructor-promotion.php">Constructor Promotion</a></li>
