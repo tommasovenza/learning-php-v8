@@ -47,6 +47,7 @@
     <li><a href="/php-v8-object-oriented/04-namespaces">Namespaces</a></li>
     <li><a href="/php-v8-object-oriented/05-class-constants">Class Constants</a></li>
     <li><a href="/php-v8-object-oriented/06-class-properties-static-methods">Class Properties Static Methods</a></li>
+    <li><a href="/php-v8-object-oriented/07-OOP-principles">OOP Principles</a></li>
   </ul>
 
 </body>
