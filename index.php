@@ -48,6 +48,7 @@
     <li><a href="/php-v8-object-oriented/05-class-constants">Class Constants</a></li>
     <li><a href="/php-v8-object-oriented/06-class-properties-static-methods">Class Properties Static Methods</a></li>
     <li><a href="/php-v8-object-oriented/07-OOP-principles">OOP Principles</a></li>
+    <li><a href="/php-v8-object-oriented/08-abstract-classes-and-methods">Abstract Classes and Methods</a></li>
   </ul>
 
 </body>
