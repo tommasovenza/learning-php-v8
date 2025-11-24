@@ -3,7 +3,7 @@
 Oltre le componenti base come:
 Classi, oggetti, metodi ed attributi, la programmazione orientata agli oggetti si basa su quattro principi fondamentali:
 
-Astrazione, Incapsulamento, Ereditarietà, Polimorfismo.
+## Astrazione, Incapsulamento, Ereditarietà, Polimorfismo.
 
 Questi principi fanno parte dei design pattern, ovvero soluzioni principali ed adottate per risolvere problemi di programmazione. Sono delle best practice applicabili a problemi simili sorti in diversi contesti.
 
@@ -15,5 +15,10 @@ Nella process abstraction, invece, i dettagli di un funzionamento di un oggetto,
 
 Encapsulation => ci si riferisce alla capacità di generare una gerarchia tra oggetti, classi, metodi e le funzioni, limitando l’accesso diretto alle componenti dell’oggetto e facendo sì che possano essere utilizzate solo attraverso metodi e proprietà pubbliche, così da avere un maggior controllo sui nostri oggetti prevenendo modifiche od errori involontari. Sfruttando la visibilità di proprietà e metodi, potremo governare i nostri oggetti in maniera puntuale. Con public chiunque potrà accedervi, con private solamente l’oggetto potrà accedervi con protected l’avevamo brevemente accennata. => è un po’ come la private ma garantisce l’accesso anche alle classi derivate.
 Un esempio di incapsulamento può essere il parametro views dell’oggetto video che abbiamo creato nelle puntate precedenti. In questo modo non può essere modificata dall’esterno della nostra classe. Con il metodo getViews( ) potremmo vederne il valore e con il metodo incrementViews invece incrementarlo a seconda di varie circostanze pensate da noi, rendendo la nostra proprietà sicura. Incapsulando i dettagli di implementazione di un oggetto possiamo promuovere la modularità, il riutilizzo del codice sorgente, fornendo interfaccia pubblica per gli altri oggetti che interagiscono con esso.
-Inheritance =>
-Polymorphism =>
+
+Inheritance => L’ereditarietà, si riferisce alla capacità di una classe di ereditare i metodi e le proprietà di un’altra classe esistente. Nella OOP, andremo spesso a creare una gerarchia di varie classi in modo da non dover riscrivere innumerevoli volte lo stesso codice. Potremo infatti definire una classe madre con le sue proprietà e metodi e poi delle classi figlie che erediteranno gli stessi metodi e proprietà e potranno sfruttarli a loro volta ed in alcuni casi potranno estenderli o sovrascriverli.
+l’ereditarietà allo stesso modo dell’encapsulation fa in modo di promuovere codice modulare e riutilizzabile.
+
+Polymorphism => ci si riferisce alla capacità di oggetti di classi diverse di essere utilizzati in modo intercambiabile. Il P consente di creare del codice più flessibile e dinamico.
+Gli oggetti possono comportarsi in modi diversi a seconda del contesto. Questo effetto viene ottenuto sfruttando le classi astratte o meglio ancora le interfacce nelle quali andremo a definire dei comportamenti con i loro relativi metodi e parametri. Successivamente li andremo a definire nelle classi derivate delle classi astratte o in quelle classi che andranno a implementare le relative interfacce.
+La nostra classe forma, di cui abbiamo parlato poco fa, potrebbe essere tranquillamente un’interfaccia così che dove nei nostri programmi dovessimo usare una qualunque forma, potremmo andare ad indicare l’interfaccia e potremmo così essere certi che qualunque classe verrà passata dal nostro programma, che sia un quadrato, un triangolo o un rettangolo, sicuramente disporrà del metodo area, che restituirà un numero, ad esempio. Non dovremo preoccuparci di come viene calcolata questa nelle varie forme. Ci basterà avere il risultato. Il polimorfismo è un concetto fondamentale della OOP ci fornisce codice più dinamico, flessibile e riutilizzabile.

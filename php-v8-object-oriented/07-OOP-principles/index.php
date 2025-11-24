@@ -9,7 +9,6 @@
 
 <body>
     <ul>
-        <li><a href="/php-v8-object-oriented/07-OOP-principles/oop.principles.php">OOP Principles</a></li>
         <li><a href="/php-v8-object-oriented/07-OOP-principles/oop.principles.md">OOP Principles MD</a></li>
     </ul>
 </body>
