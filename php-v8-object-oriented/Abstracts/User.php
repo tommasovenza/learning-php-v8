@@ -8,8 +8,9 @@ use App\Interfaces\Authenticable;
 abstract class User implements Authenticable
 {
     // User Properties
-    protected $name;
-    protected $email;
+    protected string $name;
+    protected string $email;
+    protected string $role;
 
     // login
     public function login(): string
@@ -26,12 +27,29 @@ abstract class User implements Authenticable
     // check $name and return role
     public function getRoleName(): string
     {
-        return "user role name...";
+        return $this->role;
     }
 
     // check user and return its permission
     public function getPermissions(): string
     {
-        return "permission...";
+        $checkRole = $this->role;
+
+        switch ($checkRole) {
+            case 'ADMIN':
+                # code...
+                return "You are an {$this->role}";
+                break;
+
+            case 'PM':
+                # code...
+                return "You are a {$this->role}";
+                break;
+
+            default:
+                return "You are a NOT Authenticated!";
+                # code...
+                break;
+        }
     }
 }
