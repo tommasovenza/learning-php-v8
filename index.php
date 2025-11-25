@@ -50,6 +50,7 @@
     <li><a href="/php-v8-object-oriented/07-OOP-principles">OOP Principles</a></li>
     <li><a href="/php-v8-object-oriented/08-abstract-classes-and-methods">Abstract Classes and Methods</a></li>
     <li><a href="/php-v8-object-oriented/09-interfaces-and-polymorphism">Interfaces and Polymorphism</a></li>
+    <li><a href="/php-v8-object-oriented/10-hierarchies-inheritance">Hierarchies and Inheritance</a></li>
   </ul>
 
 </body>

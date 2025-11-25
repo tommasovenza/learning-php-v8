@@ -2,7 +2,7 @@
 
 require_once "../Interfaces/Gravity.php";
 
-use App\Intefaces\Gravity;
+use App\Interfaces\Gravity;
 
 class Human implements Gravity
 {

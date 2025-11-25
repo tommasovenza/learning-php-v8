@@ -3,13 +3,13 @@
 // create abstract class User
 namespace App\Abstracts;
 
-use App\Intefaces\Authenticable;
+use App\Interfaces\Authenticable;
 
 abstract class User implements Authenticable
 {
     // User Properties
-    private $name;
-    private $email;
+    protected $name;
+    protected $email;
 
     // login
     public function login(): string

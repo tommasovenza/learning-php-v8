@@ -1,7 +1,7 @@
 <?php
 
 // create auth interface
-namespace App\Intefaces;
+namespace App\Interfaces;
 
 interface Authenticable
 {

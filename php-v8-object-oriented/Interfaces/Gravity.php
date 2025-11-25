@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Intefaces;
+namespace App\Interfaces;
 
 // create a Gravity Interface
 interface Gravity
