@@ -8,6 +8,8 @@
 </head>
 
 <body>
+    <a href="../../index.php">Back Home</a>
+
     <ul>
         <li><a href="/php-v8-object-oriented/10-hierarchies-inheritance/hierarchies-and-inheritance.php">Hierarchies and Inheritance</a></li>
         <li><a href="/php-v8-object-oriented/10-hierarchies-inheritance/hierarchies-and-inheritance.md">Hierarchies and Inheritance MD</a></li>
