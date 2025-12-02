@@ -27,7 +27,11 @@ A differenza delle costanti le variabili statiche hanno un pregio in più. Essen
 
 I metodi statici, se ne creiamo uno, si applicano sia alla classe stessa che alle loro istanze. (Non ve ne è però bisogno di farlo.)
 Una cosa da ricordare è che i metodi statici, ogni volta che ne creiamo uno, non possiamo usare dentro di loro il $this.
-Questo perchè $this non si riferisce, questa funzione, non si riferisce a nessun oggetto in particolare. E quindi se proviamo ad accedere alla variabile this otterremo un errore fatale.
+Questo perchè $this in questa funzione, non si riferisce a nessun oggetto in particolare. E quindi se proviamo ad accedere alla variabile this otterremo un errore fatale.
+
+IMPORTANTE => in sostanza non esiste nessuno spazio di memoria associato a quella classe. Non stiamo istanziando un oggetto quindi non si può usare $this per riferirsi ad esso.
+//
+$this punta allo stato corrente di un oggetto.
 ￼
 Ma quindi quando ha senso usare proprietà e metodi statici??
 Ci sono veramente pochi casi d’uso indispensabili. Il loro utilizzo è spesso considerato una bad practice in quanto il risultato che si ottiene, si può conseguire con soluzioni più eleganti.
