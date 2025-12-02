@@ -38,3 +38,11 @@ Una cosa intelligente potrebbe essere usare dei metodi dentro a delle eccezioni 
 Il catch scatta solo se qualcuno ha lanciato un throw.
 Se non c’è un throw, il catch non ha niente da fare.
 Non funziona come un if/else
+
+try {
+echo "Entro nel try\n";
+throw new ErrorHandler("Boom!");
+echo "Questa riga non verrà mai eseguita";
+} catch (ErrorHandler $e) {
+echo "Preso in tempo: " . $e->getMessage();
+}
