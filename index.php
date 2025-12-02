@@ -54,6 +54,7 @@
     <li><a href="/php-v8-object-oriented/11-traits">Traits</a></li>
     <li><a href="/php-v8-object-oriented/12-anonymous-classes">Anonymous Classes</a></li>
     <li><a href="/php-v8-object-oriented/13-magic-methods">Magic Methods</a></li>
+    <li><a href="/php-v8-object-oriented/14-errors-exception">Errors and Exception</a></li>
   </ul>
 
 </body>
