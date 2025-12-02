@@ -7,10 +7,16 @@ namespace App\Traits;
 trait Helper
 {
     // debug helper function
-    public function debug($value): void
+    public function debug($value = NULL): void
     {
-        echo "<pre>";
-        var_dump($value);
-        echo "</pre>";
+        if ($value) {
+            echo "<pre>";
+            var_dump($value);
+            echo "</pre>";
+        } else {
+            echo "<pre>";
+            var_dump($this);
+            echo "</pre>";
+        }
     }
 }
