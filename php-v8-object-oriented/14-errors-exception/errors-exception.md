@@ -32,3 +32,9 @@ altri return.
 ### un modo per gestire gli errori
 
 Una cosa intelligente potrebbe essere usare dei metodi dentro a delle eccezioni specifiche per la risorsa che ci serve. Potremmo creare una VideoException e tornare degli errori in base a questa classe, magari throwando degli errori specifici attraverso metodi statici della classe.
+
+## DA RICORDARE
+
+Il catch scatta solo se qualcuno ha lanciato un throw.
+Se non c’è un throw, il catch non ha niente da fare.
+Non funziona come un if/else
