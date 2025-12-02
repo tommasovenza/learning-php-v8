@@ -2,11 +2,13 @@
 
 namespace App\Exception;
 
-class ErrorHandler
+use Exception;
+
+class ErrorHandler extends Exception
 {
     // test
     public function test(): void
     {
-        var_dump('I am an error');
+        throw new Exception('I am an error');
     }
 }
