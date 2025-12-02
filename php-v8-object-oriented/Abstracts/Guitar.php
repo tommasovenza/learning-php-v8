@@ -5,9 +5,9 @@ namespace App\Abstracts;
 abstract class Guitar
 {
     // Guitar class
-    private $brand;
-    private $model;
-    private $color;
+    public string $brand;
+    public string $model;
+    public string $color;
 
     // construct
     public function __construct($brand, $model, $color)
@@ -18,33 +18,33 @@ abstract class Guitar
     }
 
     // getters
-    public function getBrand()
+    public function getBrand(): string
     {
         return $this->brand;
     }
 
-    public function getModel()
+    public function getModel(): string
     {
         return $this->model;
     }
 
-    public function getColor()
+    public function getColor(): string
     {
         return $this->color;
     }
 
     // setters
-    public function setBrand($brand)
+    public function setBrand($brand): string
     {
         return $this->brand = $brand;
     }
 
-    public function setModel($model)
+    public function setModel($model): string
     {
         return $this->model = $model;
     }
 
-    public function setColor($color)
+    public function setColor($color): string
     {
         return $this->color = $color;
     }

@@ -6,8 +6,8 @@ use Exception;
 
 class ErrorHandler extends Exception
 {
-    // test
-    public function test(): void
+    // show an error to user
+    public function showError(): void
     {
         throw new Exception('I am an error');
     }
