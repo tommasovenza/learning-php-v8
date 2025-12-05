@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <a href="../../index.php">Back Home</a>
     <ul>
         <li><a href="/php-v8-object-oriented/14-errors-exception/errors-exception.php">Errors and Exception</a></li>
         <li><a href="/php-v8-object-oriented/14-errors-exception/FileReader.php">File Reader</a></li>
