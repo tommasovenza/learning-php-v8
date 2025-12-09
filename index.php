@@ -56,6 +56,7 @@
     <li><a href="/php-v8-object-oriented/13-magic-methods">Magic Methods</a></li>
     <li><a href="/php-v8-object-oriented/14-errors-exception">Errors and Exception</a></li>
     <li><a href="/php-v8-object-oriented/15-server-information">Server Info</a></li>
+    <li><a href="/php-v8-object-oriented/16-sessions-cookies">Sessions and Cookies</a></li>
   </ul>
 
 </body>
