@@ -1,7 +1,6 @@
 <?php
 
 // instantiate two objects that are identical after creating a People Class
-
 class People
 {
     // variables
