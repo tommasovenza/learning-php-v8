@@ -59,3 +59,13 @@ $clonedTommino = clone($personWithId);
 
 var_dump($personWithId);
 var_dump($clonedTommino); // this cloned items now has a different WorkId than its previous value
+
+// ***** Testing Serialize an Object ***** //
+
+// create a serialized object
+$serializedItem = serialize($clonedTommino);
+var_dump($serializedItem);
+
+// trying to revert and getting object unserialized again
+$unserializedItem = unserialize($serializedItem);
+var_dump($unserializedItem);
