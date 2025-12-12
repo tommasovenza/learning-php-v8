@@ -59,6 +59,7 @@
     <li><a href="/php-v8-object-oriented/16-sessions-cookies">Sessions and Cookies</a></li>
     <li><a href="/php-v8-object-oriented/17-data-transmission">Data Transmission</a></li>
     <li><a href="/php-v8-object-oriented/18-datetime-object">Datetime Object</a></li>
+    <li><a href="/php-v8-object-oriented/19-working-with-objects">Datetime Object</a></li>
   </ul>
 
 </body>
