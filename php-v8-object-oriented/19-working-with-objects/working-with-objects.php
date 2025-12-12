@@ -8,13 +8,22 @@ class People
     public string $name;
     public string $age;
     public string $gender;
+    public string $workId;
 
     // construct
-    public function __construct(string $name, string $age, string $gender)
+    public function __construct(string $name, string $age, string $gender, string $workId = '')
     {
         $this->name = $name;
         $this->age = $age;
         $this->gender = $gender;
+        $this->workId = $workId;
+    }
+
+    public function __clone(): void // Clone Magic Method must return void
+    {
+        if ($this->workId !== '') {
+            $this->workId = $this->workId . '-' . rand(0, 9999);
+        }
     }
 }
 
@@ -28,3 +37,25 @@ $person = $person2;
 
 // so this var_dump will output => true
 var_dump($person === $person2); // true //
+
+// clone an object, set an object to clone
+$newPeople = new People('Mario', '20', 'Male');
+// clone newPeople
+$cloned = clone($newPeople);
+
+var_dump($newPeople);
+var_dump($cloned);
+
+var_dump($newPeople == $cloned); // true => 'cause items are the same
+var_dump($newPeople === $cloned); // false => 'cause, in this case, space in memory is different
+
+// ***** Testing Clone Magic Method ***** //
+
+// we use this magic method to keep some properties unique when we cloned. so items will be different in some way if we need
+// so trying to test Clone Magic Method
+
+$personWithId = new People('Tommino', '42', 'male', '001');
+$clonedTommino = clone($personWithId);
+
+var_dump($personWithId);
+var_dump($clonedTommino); // this cloned items now has a different WorkId than its previous value
